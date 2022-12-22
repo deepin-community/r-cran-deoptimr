@@ -1,0 +1,48 @@
+This is the Debian GNU/Linux r-cran-deoptimr package of DEoptimR.  The
+DEoptimR package provides an R-only implementation of the jDE variant
+of Differential Evolution algorithm in pure R, and was written by
+Eduardo L. T. Conceicao and Martin Maechler.
+
+This package was created by Dirk Eddelbuettel <edd@debian.org>.
+The sources were downloaded from the main CRAN site
+	http://cran.r-project.org/src/contrib/
+and are also available from all CRAN mirrors as e.g.
+	http://cran.us.r-project.org/src/contrib/
+
+The package was renamed from its upstream name 'DEoptimR' to
+'r-cran-deoptimr' to fit the pattern of CRAN (and non-CRAN) packages
+for R.
+
+Files: *
+Copyright: 2013  Eduardo L. T. Conceicao and Martin Maechler
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2014  Dirk Eddelbuettel <edd@debian.org>
+License: GPL-2+
+
+On a Debian GNU/Linux system, the GPL license (version 2) are
+included in the file /usr/share/common-licenses/GPL-2.
+
+
+For reference, the upstream DESCRIPTION file is included below:
+
+  Package: DEoptimR
+  Version: 1.0-0
+  Date: 2013-12-07
+  Title: Differential Evolution Optimization in pure R
+  Author: Eduardo L. T. Conceicao and Martin Maechler [ctb]
+  Maintainer: Eduardo L. T. Conceicao <econceicao@kanguru.pt>
+  Description: An implementation of the jDE variant of the Differential Evolution
+    stochastic algorithm for global optimization of nonlinear programming problems.
+  Enhances: robustbase
+  License: GPL (>= 2)
+  ByteCompile: yes
+  Repository: CRAN
+  Repository/R-Forge/Project: robustbase
+  Repository/R-Forge/Revision: 553
+  Repository/R-Forge/DateTimeStamp: 2014-01-25 21:52:36
+  Date/Publication: 2014-01-27 21:00:51
+  Packaged: 2014-01-25 23:36:40 UTC; rforge
+  NeedsCompilation: no
+  
